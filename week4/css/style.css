@@ -1,0 +1,20 @@
+#container {
+	padding: 2em;
+	width: 960px;
+	height: 400px;
+	border: 1px solid blue;
+}
+
+#binari {
+	height: 100px;
+	width: 90%;
+	border-bottom: 3px solid gray;
+	border-right: 2px dashed brown;
+}
+
+#treno {
+	border: 0px dotted red;
+	position: relative;
+	top:66px;
+
+}

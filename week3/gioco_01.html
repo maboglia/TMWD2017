@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pietra Forbici Carta</title>
+
+<style>
+	div {border:1px solid #ccc; min-height: 100px;margin:5px;padding:10px;text-align:center;}
+	
+</style>
+
+</head>
+
+<body>
+<h1>Pietra Forbici Carta</h1>
+
+<div id="pulsanti_scelta">
+	<button onClick="sceltaUmano('pietra')" id="btn_pietra">pietra</button>
+	<button onClick="sceltaUmano('forbici')" id="btn_forbici">forbici</button>
+	<button onClick="sceltaUmano('carta')" id="btn_carta">carta</button>
+</div>
+
+<div id="mostra_scelta_umano"></div>
+
+<div id="mostra_scelta_computer"></div>
+
+<div id="mostra_risultato"></div>
+
+<script>
+var contenitoreUmano = document.getElementById("mostra_scelta_umano");
+var contenitorePC = document.getElementById("mostra_scelta_computer");
+var mostraRisultato = document.getElementById("mostra_risultato");
+var mossaUmano    = "";
+var mossaComputer    = "";
+
+function confrontaGiocate(choiceUmano, choicePC){
+		if(choiceUmano == choicePC) 
+		mostraRisultato.innerHTML = "<h1>pareggio</h1>";
+		else if (choiceUmano == 'pietra' && choicePC == "forbici")
+		mostraRisultato.innerHTML = "<h1>vince umano </h1>";
+		else if (choiceUmano == 'forbici' && choicePC == "carta")
+		mostraRisultato.innerHTML = "<h1>vince umano</h1>";
+		else if (choiceUmano == 'carta' && choicePC == "pietra")
+		mostraRisultato.innerHTML = "<h1>vince umano</h1>";
+			
+		else
+				mostraRisultato.innerHTML = "<h1>vince Pc</h1>";
+	}
+
+function sceltaComputer(){
+	var numeroCasuale = Math.random();
+	if(numeroCasuale < 0.34) 
+		mossaComputer = "pietra";
+	else if (numeroCasuale < 0.67)
+	 	mossaComputer = "forbici";	
+	else 
+		mossaComputer = "carta";
+		
+	contenitorePC.innerHTML =  "<h1>" + mossaComputer + "</h1>";			
+	}
+
+
+
+function sceltaUmano(scelta){
+		console.log(scelta);
+		mossaUmano = scelta;
+		sceltaComputer();
+		
+		//scrivo l'istruzione nel div umano
+		contenitoreUmano.innerHTML =  "<h1>" + scelta + "</h1>";	
+		confrontaGiocate(mossaUmano, mossaComputer);
+	}
+
+</script>
+
+</body>
+</html>
