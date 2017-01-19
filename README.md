@@ -8,28 +8,49 @@ repository del corso tecnico multimedia e web design
 
 ##esempi - esercizi
 
+[Todo List](https://github.com/maboglia/TSS2017/blob/master/CorsoJavascript/03_esempi/esempio_01.html)
 
-[Todo List](../TSS2017/blob/master/CorsoJavascript/03_esempi/esempio_01.html)
-[es. 1](../TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
-[es. 2](../TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
-[es. 3](../TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
-[es. 4](../TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
-[es. 5](../TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
-[es. 6](../TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
-[es. 7](../TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
-[es. 8](../TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
-[es. 9](../TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
-[es. 10](../TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
-[es. 11](../TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
-[es. 12](../TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
-[es. 13](../TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
-[es. 14](../TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
-[es. 15](../TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
-[es. 16](../TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
-[es. 17](../TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
-[es. 18](../TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
-[es. 19](../TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
-[es. 20](../TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
+[es. 1](https://github.com/maboglia/TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
+
+[es. 2](https://github.com/maboglia/TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
+
+[es. 3](https://github.com/maboglia/TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
+
+[es. 4](https://github.com/maboglia/TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
+
+[es. 5](https://github.com/maboglia/TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
+
+[es. 6](https://github.com/maboglia/TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
+
+[es. 7](https://github.com/maboglia/TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
+
+[es. 8](https://github.com/maboglia/TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
+
+[es. 9](https://github.com/maboglia/TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
+
+[es. 10](https://github.com/maboglia/TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
+
+[es. 11](https://github.com/maboglia/TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
+
+[es. 12](https://github.com/maboglia/TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
+
+[es. 13](https://github.com/maboglia/TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
+
+[es. 14](https://github.com/maboglia/TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
+
+[es. 15](https://github.com/maboglia/TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
+
+[es. 16](https://github.com/maboglia/TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
+
+[es. 17](https://github.com/maboglia/TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
+
+[es. 18](https://github.com/maboglia/TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
+
+[es. 19](https://github.com/maboglia/TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
+
+[es. 20](https://github.com/maboglia/TSS2017/blob/master/CorsoJavascript/03_esempi/esercizio_01.html)
+
+
 
 
 
