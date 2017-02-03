@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<div id="prova" onmouseover="circondaDiv(this, '0.5')" onmouseout="circondaDiv(this, '1.0')">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+	</div>
+
+	<div id="prova2" onmouseover="circondaDiv(this, 'green')" onmouseout="circondaDiv(this, 'none')">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+	</div>
+
+
+
+	<script type="text/javascript">
+		var divProva = document.getElementById("prova");
+		divProva.style.backgroundColor = "red";
+
+		function saluta(){
+			console.log("ciao");
+
+		}
+		saluta();
+		setInterval(saluta, 1000);
+
+		function circondaDiv(divDaModificare, stileDaModificare) {
+			divDaModificare.style.opacity = stileDaModificare;
+		}
+
+		//divProva.onmouseover = circondaDiv;
+
+		// divProva.addEventListener("mouseout", function() {
+		// 	this.style.border = "none";
+		// });
+
+
+	</script>
+
+
+</body>
+</html>

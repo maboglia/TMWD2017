@@ -1,0 +1,27 @@
+#didascalia, #descrizione { 
+	position: relative; 
+	z-index: 10; 
+	margin:0 auto;
+	margin-top: -100px; 
+	border: 0px solid black; 
+	font-size: 2em;
+	width: 640px;
+	background-color: #333;
+	opacity: .8;
+	color: #ddd;
+	padding-left: 12px;
+	  }
+
+#bottoni img { width: 100px; height: 70px; float: left; margin-right: 10px;  }
+
+#bottoni { padding:10px 20%; display: inline-block;}
+
+
+#descrizione {font-size: 1.4em; margin-top: 0px;  }
+
+#fotoCopertina {
+	width: 640px; 
+	height: 480px; 
+	margin: 0 auto; 
+	border: 0px solid #ccc;
+}
