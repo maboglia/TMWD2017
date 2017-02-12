@@ -1,0 +1,69 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<button>ingrandisci</button>
+	<button>reset</button>
+
+
+	<p id="primo">test</p>
+	<p>test</p>
+	<p class="rosso">test</p>
+	<p>test</p>
+	<p class="rosso">test</p>
+	<div>testa di div</div>
+	<p class="verde">test</p>
+	<p id="ultimo" class="blu">test</p>
+
+<script
+			  src="https://code.jquery.com/jquery-3.1.1.min.js"
+			  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+			  crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+
+        $("document").ready(
+		function() {
+
+            $("p.rosso").html("<b>ciao da jquery</b>")
+            			.css('color', 'red')
+            			.css("font-size", "2em");
+            
+            $("p#primo").html("<b>sono il primo</b>");
+            $("p:last").html("<b>sono l'ultimo</b>");
+            $("p:even").css('border', '1px solid red');
+
+            $("p").append("<br/>tutto ok!!");
+
+            // alert(     $("p#primo").html()    );
+            // alert(     $("p#primo").text()    );
+            $("button:eq(0)").click(function() {
+            	$("p").css('font-size', '+=2px');
+            });
+
+            $("button:contains('reset')").dblclick(function() {
+            	$("p").css('font-size', '12px');
+            });
+
+
+
+        });
+
+
+
+
+        // window.addEventListener("DOMContentLoaded", function(evt) {
+        //     var elem = document.getElementsByTagName("body")[0];
+        //     var para = document.createElement("p");
+        //     var text = document.createTextNode("Hello JQuery!");
+        //     para.appendChild(text);
+        //     elem.appendChild(para);
+        // });
+
+
+</script>
+
+</body>
+</html>
