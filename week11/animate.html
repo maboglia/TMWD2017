@@ -1,0 +1,36 @@
+<style type="text/css">
+#qualcosa {background-color: yellow;
+            width: 300px;
+            height: 200px;
+            border: 1px solid black;
+            }
+
+
+</style>
+
+<button id="ingrandisci">ingrandisci</button>
+
+<div id="qualcosa">
+
+
+  testo
+
+
+</div>
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js">
+</script>
+
+
+<script type="text/javascript">
+
+
+$("#ingrandisci").click(function(event) {
+  /* Act on the event */
+  $("#qualcosa").animate({width:"500px"}, 1000);
+});
+
+
+</script>
