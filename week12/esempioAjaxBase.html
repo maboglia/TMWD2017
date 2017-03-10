@@ -36,14 +36,32 @@
       $("document").ready(function() {
         getData();
       });
-      "../config/res/datiprova.txt"
+      
       function getData() {
-        $.a
+        $.ajax({
+          url: "datiprova.txt",
+          type: 'GET',
+          dataType: 'text',
+          data: {param1: 'value1'},
+        })
+        .done(successFn)
+        .fail(function(xhr, status, strErr) {
+        console.dir(xhr);
+        console.log("There was an error!");
+      })
+        .always(function() {
+          console.log("complete");
+        });
+        
       }
 
       function successFn(result) {alert();
         console.log("Setting result");
         $("#qualcosa").append(result);
+      }
+      function errorFn(xhr, status, strErr) {
+        alert(strErr);
+        console.log("There was an error!");
       }
   </script>
 
